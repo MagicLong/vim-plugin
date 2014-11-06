@@ -3,7 +3,8 @@ filetype indent on
 set expandtab
 set tabstop=4
 set softtabstop=4
-filetype off                  " required
+filetype on                  " required
+syntax on
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
